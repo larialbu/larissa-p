@@ -1,0 +1,5 @@
+=> Primeira alteração 19-01-2023
+
+- Eu organizei o readme.md e organozei todos os arquivos em pastas, oranizei todos os arquivos css. criei uma copya do index.html originall e do style.css. Depois, linkei o style nos outros css em pastas do CSS. linkei o indexCopy.html ao styleCopy.css e ao ./assets/JavaScript/script.js.
+
+- Criei a pasta debug para anotar coisas como essa, avisos e códigos para lembrar. Qual quer outra duvida leia o readme.md.

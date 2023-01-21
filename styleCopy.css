@@ -1,0 +1,12 @@
+/* Link dos arquivos css */
+@import url('./assets/css/global.css');
+@import url('./assets/css/header.css');
+@import url('./assets/css/main.css');
+
+@import url('./assets/css/aside.css');
+@import url('./assets/css/section.css');
+@import url('./assets/css/article.css');
+
+@import url('./assets/css/div.css');
+@import url('./assets/css/footer.css');
+@import url('./assets/css/span.css');

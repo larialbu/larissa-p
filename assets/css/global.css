@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  display: block;
+  transition: .3s;
+  text-decoration: none;
+  font-family: var(--ubuntu);
+  color: var(--white-100);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  object-fit: contain;
+}
+
+ul, li, ol {
+  list-style: none;
+}
+
+/* variaveis globais */
+:root {
+  /* CORES: 100 para mais claro 200 mais escuro */
+  --white: #f5f5f5;
+  --white-100: #FFFFFF;
+  --white-200: #CCCCCC;
+
+  --roxo: #3f1f9c;
+  --roxo-100: #5832cc;
+  --roxo-200: #36188f;
+
+  --dark: #111111;
+  --dark-100: #222222;
+  --dark-200: #000000;
+
+  --gray: #333333;
+  --gray-100: #3b3b3b;
+  --gray-200: #282828;
+
+  /* FONTES */
+  --ubuntu: 'Ubuntu';
+  --roboto: 'Roboto';
+}

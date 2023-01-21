@@ -74,10 +74,10 @@ html {
     color: #fff;
 }
 
-/*  Home   inicio  */
+/*  Home inicio  */
 .home {
     display: flex;
-    background: url(image/baner.png) no-repeat;
+    background: url(img/baner.png) no-repeat;
     background-size: cover;
     height: 100vh;
     /*     background-color: #101113;

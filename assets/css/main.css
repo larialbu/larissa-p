@@ -1,0 +1,108 @@
+#home {
+  margin: 0 auto;
+  background-image: url('../../img/baner.png');
+  background-size: cover;
+  background-position: right;
+  background-color: var(--dark);
+  color: var(--white-100);
+  font-family: var(--ubuntu);
+}
+
+.container-back {
+  display: flex;
+  align-items: center;
+  row-gap: 10px;
+  height: 600px;
+  max-width: 1200px;
+  padding: 0 2rem;
+  margin: 0 auto;
+}
+
+.front-container {
+  width: auto;
+}
+
+.text-1 {
+  font-size: 1.6875rem;
+}
+
+.text-2 {
+  font-size: 4.5rem;
+}
+
+.text-3 {
+  font-size: 2.5rem;
+}
+
+.typing {
+  color: var(--roxo);
+}
+
+.btn-contrato {
+  max-width: max-content;
+  font-size: 1.5rem;
+  padding: .6rem 2rem;
+  margin: 1.5rem 0;
+  border-radius: 4px;
+  background-color: var(--roxo);
+  border: solid 2px var(--roxo);
+}
+
+.btn-contrato:hover {
+  background-color: var(--roxo-100);
+  box-shadow: 0 0 .4rem var(--gray);
+}
+
+@media (max-width: 1000px) {
+  #home {
+    background-image: none;
+  }
+
+  .container-back {
+    display: grid;
+    height: 500px;
+  }
+}
+
+@media (max-width: 800px) {
+  .container-back {
+    height: 300px;
+  }
+
+  .text-1 {
+    font-size: 1.5rem;
+  }
+
+  .text-2 {
+    font-size: 3rem;
+  }
+
+  .text-3 {
+    font-size: 2rem;
+  }
+
+  .typing {
+    color: var(--roxo);
+  }
+
+  .btn-contrato {
+    max-width: max-content;
+    font-size: 1rem;
+    padding: .6rem 1rem;
+    margin: 1.5rem 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .container-back {
+    padding: 0 1rem;
+  }
+
+  .text-2 {
+    font-size: 2.1rem;
+  }
+
+  .text-3 {
+    font-size: 1.6rem;
+  }
+}
