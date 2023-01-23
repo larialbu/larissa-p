@@ -5,7 +5,7 @@
 - Essa é minha chave do repositório para clone: 
 
 ```
-  git@github.com:larialbu/portifolio-larissa.git
+  git@github.com:larialbu/larissa-p.git
 ```
 
 # Sobre o Repositório - 
@@ -54,4 +54,4 @@
 
 => O código terá variáveis globais definidas no root.
 
-> Esse readme.md sofre essa alteração em 19-01-2023.
+> Esse readme.md sofre essa alteração em 22-01-2023.
